@@ -16,49 +16,57 @@
           <ul class="user-navigation">
             <li><a href="#">Войти</a></li>
             <li><a href="#">Сравнить</a></li>
-            <button type="button" class="shop-cart" id="shop-cart">Корзина</button> <!--валидатор показал тут ошибку, как тогда переиграть этот момент с кнопкой?-->
+            <li>
+              <button type="button" class="shop-cart" id="shop-cart">Корзина</button>
+            </li>
           </ul>
           <ul class="site-navigation">
             <li><a href="catalog.html"><img src="#" alt="Кнопка выпадающего меню">Каталог товаров</a></li>
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Гарантия</a></li>
             <li><a href="#">Контакты</a></li>
-          </ul>
+          </ul> 
         </nav>
       </header>
       <main>
         <section class="gadget">
-          <img src="#" alt="квадракоптер">
-          <h1 class="gadget-title">Порхает как бабочка, жалит как пчела!</h1>
-          <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-          </p>
-          <a href="#">Подробнее</a>
-          <ul class="slider-pagination">
-            <li>
-              <button type="button"></button>
-              <span class="vissually-hidden">1й товар</span>
+          <section class ="gadget-item">
+            <img src="#" alt="квадракоптер">
+            <h1 class="gadget-title">Порхает как бабочка, жалит как пчела!</h1>
+            <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+            </p>
+            <a href="#">Подробнее</a>
+          </section>
+          <ul class="stats-list">
+            <li class="stats-list-item">
+              <span class="stats-item-big">800 м </span>
+              <span class="stats-item-text">Дальность полета</span>
             </li>
-            <li>
-              <button type="button"></button>
-              <span class="vissually-hidden">2й товар</span>
-            </li>
-            <li>
-              <button type="button"></button>
-              <span class="vissually-hidden">3й товар</span>
+            <li class="stats-list-item">
+              <span class="stats-item-big">50 м </span>
+              <span class="stats-item-text">Радиус поражения</span>
             </li>
           </ul>
-          <div class="stats">
-            <div class="stats-item">
-              <h2 class="stats-title">800 м</h2>
-              <p class="stats-text">Дальность полета</p>
-            </div>
-          </div>
-          <div class="stats">
-            <div class="stats-item">
-              <h2 class="stats-title">50 м</h2>
-              <p class="stats-text">Радиус поражения</p>
-            </div>
-          </div>
+          <ul class="slider-pagination">
+            <li class="slider-pagination-item">
+              <button class="slider-pagination-button slider-pagination-button-current"
+                type="button">
+              <span class="visually-hidden">1-й товар</span>
+              </button>
+            </li>
+            <li>
+              <button class="slider-pagination-button slider-pagination-button-current"
+                type="button">
+              <span class="visually-hidden">2-й товар</span>
+              </button>
+            </li>
+            <li>
+              <button class="slider-pagination-button slider-pagination-button-current"
+                type="button">
+              <span class="visually-hidden">3-й товар</span>
+              </button>
+            </li>
+          </ul>
         </section>
         <section class="product-types">
           <ul class="product-types-list">
